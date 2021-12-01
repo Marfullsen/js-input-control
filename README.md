@@ -1,7 +1,9 @@
-
-# @jingwood/input-control
+# js-input-control
 
 A lightweight Javascript library used to handle the input events of mouse, keyboard and touch control from end-user.
+
+[![Forked](https://img.shields.io/badge/Forked%20from-jingwood-green)](https://github.com/jingwood/js-input-control)
+<img src="https://img.shields.io/badge/Vanilla-JavaScript-yellow.svg" alt="Vanilla JS">
 
 # Features
 
@@ -32,7 +34,7 @@ element.focus();
 const controller = new InputController(element);
 
 // keyup event
-controller.on("keyup" e => {
+controller.on("keyup", e => {
   if (e.keyCode === 32) {
     alert("Space key was pressed");
   }
@@ -51,5 +53,7 @@ Released under MIT License
 Copyright (C) 2015-2020 Jingwood, unvell.com, all rights reserved.
 
 # References
+- **Forked from** [@jingwood/input-control](https://github.com/jingwood/js-input-control)
 - [TypeError: Converting circular structure to JSON](https://stackoverflow.com/a/31557814)
 - [type="module"](https://stackoverflow.com/questions/61191061/uncaught-syntaxerror-cannot-use-import-statement-outside-a-module)
+- [Swap key with value in object](https://stackoverflow.com/a/56781239)
