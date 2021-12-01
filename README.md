@@ -49,3 +49,7 @@ controller.on("drag", e => {
 Released under MIT License
 
 Copyright (C) 2015-2020 Jingwood, unvell.com, all rights reserved.
+
+# References
+- [TypeError: Converting circular structure to JSON](https://stackoverflow.com/a/31557814)
+- [type="module"](https://stackoverflow.com/questions/61191061/uncaught-syntaxerror-cannot-use-import-statement-outside-a-module)
