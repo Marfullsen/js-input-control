@@ -1,74 +1,11 @@
-<!--
 ////////////////////////////////////////////////////////////////////////////////
 // js-input-control
 // A lightweight library to handle the mouse, keyboard and touch control.
 //
 // MIT License (C) 2015-2020 Jingwood, unvell.com, all rights reserved.
 ////////////////////////////////////////////////////////////////////////////////
- -->
 
-<html>
-
-<head>
-  <title>Hello World!</title>
-  <!-- <script type="module" src="../test/test.js"></script> -->
-  <style type="text/css">
-    body {
-      width: 100%;
-      height: 100%;
-      margin: 0;
-    }
-
-    #testbox {
-      width: 80%;
-      height: 60%;
-      margin: auto;
-      background-color: #eee;
-    }
-
-    #testbox:focus { 
-      outline: none; 
-    }
-
-    #log {
-      position: absolute;
-      background-color: bisque;
-      height: 30%;
-      bottom: 70px;
-      left: 0px;
-      right: 0px;
-      padding: 10px;
-      overflow: scroll;
-      -webkit-touch-callout: none;
-      -webkit-user-select: none;
-      -khtml-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-    }
-
-    #log-arg {
-      position: absolute;
-      left: 0;
-      right: 0;
-      height: 50px;
-      bottom: 0;
-      padding: 10px;
-      background-color: darkgrey;
-    }
-  </style>
-</head>
-
-<body>
-  <div id="testbox"></div>
-  <div class="another-panel">
-    <input type="text">
-  </div>
-
-  <div id="log">Press any key or click in the light gray area!</div>
-  <div id="log-arg">Here will be the last move.</div>
-  <script type="module">
-    import { InputController, EventDispatcher } from "../src/controller.js";
+import { InputController, EventDispatcher } from "../src/controller.js";
     import { Keys } from "../src/keyboard.js";
     
     // get the element to receive mouse, keyboard and touch events
@@ -101,7 +38,3 @@
       logtext.innerText = "Mouse moving " + e.movement.x + ", " + e.movement.y + "\n" + logtext.innerText;
       logarg.innerText = "Last mouse moved: " + e.movement.x + ", " + e.movement.y;
     });
-  </script>
-</body>
-
-</html>
