@@ -2,8 +2,9 @@
 
 A lightweight Javascript library used to handle the input events of mouse, keyboard and touch control from end-user.
 
-[![Forked](https://img.shields.io/badge/Forked%20from-jingwood-green)](https://github.com/jingwood/js-input-control)
+[![Test it!](https://img.shields.io/badge/Test%20it!-Gh%20Pages-blue)](https://marfullsen.github.io/js-input-control)
 <img src="https://img.shields.io/badge/Vanilla-JavaScript-yellow.svg" alt="Vanilla JS">
+[![Forked](https://img.shields.io/badge/Forked%20from-jingwood-green)](https://github.com/jingwood/js-input-control)
 
 # Features
 
@@ -20,6 +21,8 @@ yarn add @jingwood/input-control
 ```
 
 # Hello-World
+
+Test this example [here!](https://marfullsen.github.io/js-input-control)
 
 ```js
 
